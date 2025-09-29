@@ -1,0 +1,46 @@
+body {
+    background-color: powderblue;
+    margin: 0;
+}
+
+h1 {
+    color: #1a1d20;
+    font-family: "arial", serif;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#reader {
+    width: 600px;
+    margin: auto;
+    margin-top: calc(50vh - 220px);
+}
+
+/* ✅ Responsive styles for tablets */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+        top: 30px;
+        padding: 0 10px;
+    }
+
+    #reader {
+        width: 90%;
+        margin-top: 80px;
+    }
+}
+
+/* ✅ Responsive styles for small mobile screens */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+        top: 20px;
+        padding: 0 8px;
+    }
+
+    #reader {
+        width: 95%;
+        margin-top: 60px;
+    }
+}
